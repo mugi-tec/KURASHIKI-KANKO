@@ -213,14 +213,6 @@ header section.common_header .inner .logo img {
     top: 20px;
 }
 
-#nav_toggle:hover span:nth-child(1) {
-    top: 4px;
-}
-
-#nav_toggle:hover span:nth-child(3) {
-    top: 16px;
-}
-
 .open #nav_toggle span {
     background: #fff;
 }
