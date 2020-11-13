@@ -18,15 +18,14 @@ Copyright:(C) BUNKASOZOSHA Co.,Ltd.
 
 main#tourist section.content .inner ul {
     margin: 20px auto 0;
-    display: block;
-    overflow: hidden;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 main#tourist section.content .inner ul li {
     text-align: center;
     width: 300px;
     margin: 40px 40px 0 0;
-    float: left;
 }
 
 main#tourist section.content .inner ul li:nth-of-type(3n){
