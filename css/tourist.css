@@ -24,7 +24,6 @@ main#tourist section.content .inner ul {
 
 main#tourist section.content .inner ul li {
     text-align: center;
-    width: 300px;
     margin: 40px 40px 0 0;
 }
 
@@ -181,6 +180,11 @@ main#tourist section.content .inner aside .dlbox .wrap {
 	padding: 15px 20px;
 }
 
+main#tourist section.content .inner aside .btn {
+    width: 340px;
+    margin: 90px auto 0;
+}
+
 main#tourist section.content .inner aside .btn_area {
     width: 720px;
     margin: 0 auto;
@@ -189,20 +193,12 @@ main#tourist section.content .inner aside .btn_area {
     justify-content: space-between;
 }
 
-main#tourist section.content .inner aside .btn {
+main#tourist section.content .inner aside .btn_area > .btn {
     width: 340px;
-    margin: 20px auto 0;
+    margin: 30px auto 0;
 }
 
-main#tourist section.content .inner aside .btn a {
-    height: 40px;
-}
-
-main#tourist section.content .inner aside .btn a span {
-    font-size: 14px;
-}
-
-main#tourist section.content .inner aside .btn a img {
+main#tourist section.content .inner aside .btn_area > .btn a img {
     position: absolute;
     top: 15px;
     right: 10px;
@@ -213,7 +209,7 @@ main#tourist section.content .inner aside .btn a img {
 main#tourist section.content .inner .cooperation {
     text-align: right;
     font-size: 12px;
-    margin: -60px 0 90px;
+    margin: 30px 0 0;
 }
 
 }

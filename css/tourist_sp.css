@@ -232,19 +232,23 @@ main#tourist section.content .inner aside .dlbox .wrap {
 }
 
 main#tourist section.content .inner aside .btn {
+    margin: 40px auto 0;
+}
+
+main#tourist section.content .inner aside .btn_area > .btn {
     margin: 10px auto 0;
 }
 
-main#tourist section.content .inner aside .btn a {
+main#tourist section.content .inner aside .btn_area > .btn a {
     height: 30px;
 }
 
-main#tourist section.content .inner aside .btn a span {
+main#tourist section.content .inner aside .btn_area > .btn a span {
     font-size: 12px;
     margin-right: -0.1em;
 }
 
-main#tourist section.content .inner aside .btn a img {
+main#tourist section.content .inner aside .btn_area > .btn a img {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -256,7 +260,7 @@ main#tourist section.content .inner .cooperation {
     text-align: left;
     font-size: 10px;
     line-height: 1.5;
-    margin: -20px 0 40px;
+    margin: 20px 0 0;
 }
 
 }
