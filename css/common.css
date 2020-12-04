@@ -164,7 +164,7 @@ header section.common_header .inner h1 {
 
 header section.common_header .inner .logo {
     width: 250px;
-    margin: 60px auto 0;
+    margin: 80px auto 0;
 }
 
 header section.common_header .inner .logo img {
@@ -572,7 +572,7 @@ main section.content .inner h3 {
 }
 
 main section.content .inner h3 span {
-    font-size: 32px;
+    font-size: 30px;
     position: relative;
     display: block;
     padding: 30px 0;
@@ -743,10 +743,9 @@ footer .footerlink h2 img {
 }
 
 footer .footerlink ul {
-    width: 550px;
     display: flex;
-    /* 子要素を均等に配置し、最初のアイテムは先頭に寄せ、最後のアイテムは末尾に寄せる */
-    justify-content: space-between;
+    /* 子要素を行末から配置。右揃え。 */
+    justify-content: flex-end;
     /* 子要素を上下中央に配置する */
     align-items: center;
 }
@@ -754,8 +753,13 @@ footer .footerlink ul {
 footer .footerlink ul li {
     background: url(../images/icon_arrow_right.png) no-repeat left center;
     font-size: 14px;
+    margin: 0 0 0 40px;
     padding: 0 0 0 10px;
     display: table-cell;
+}
+
+footer .footerlink ul li:first-child {
+    margin: 0;
 }
 
 footer .inner {

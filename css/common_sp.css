@@ -153,7 +153,7 @@ header section.common_header .inner {
 }
 
 header section.common_header .inner h1 {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     line-height: 1.2;
     margin: 10px 10px 0 10px;
@@ -164,7 +164,7 @@ header section.common_header .inner h1 {
 
 header section.common_header .inner .logo {
     width: 125px;
-    margin: 40px auto 0;
+    margin: 60px auto 0;
 }
 
 header section.common_header .inner .logo img {

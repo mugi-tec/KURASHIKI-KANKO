@@ -17,7 +17,7 @@ Copyright:(C) BUNKASOZOSHA Co.,Ltd.
 /* ------------------------------------------------------------ */
 
 main#tourist section.content .inner ul {
-    margin: 20px auto 0;
+    margin: 50px auto 0;
     display: inline-flex;
     flex-wrap: wrap;
 }

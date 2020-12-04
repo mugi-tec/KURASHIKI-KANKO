@@ -40,7 +40,7 @@ main#tourist section.titlevisual .inner .description {
 main#tourist section.titlevisual .inner .description .txt {
     line-height: 1.5;
     margin-right: -0.1em;
-    font-size: 12px;
+    font-size: 10px;
     color: #000;
     text-shadow: none;
 }
@@ -49,7 +49,7 @@ main#tourist section.titlevisual .inner .description .txt {
 /* ------------------------------------------------------------ */
 
 main#tourist section.content .inner ul {
-    margin: 10px auto 0;
+    margin: 20px auto 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -91,7 +91,7 @@ main#tourist section.content .inner .btn a {
 
 main#tourist section.content .inner .detail_main {
     width: 100%;
-    margin: 30px auto 0;
+    margin: 40px auto 0;
 }
 
 main#tourist section.content .inner .detail_main img {
@@ -111,7 +111,7 @@ main#tourist section.content .inner .highlights {
 }
 
 main#tourist section.content .inner .highlights h4 {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.03em;
     margin-right: -0.03em;
 }
